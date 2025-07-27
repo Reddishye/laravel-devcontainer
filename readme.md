@@ -21,14 +21,14 @@ Any Extensions will also run in the same container, meaning that intellisense wi
 
 #### Easy Installation
 
-Using this configuration is quite simple. [Download](https://github.com/theomessin/laravel-devcontainer/archive/refs/heads/master.zip) and place `laravel-devcontainer` in a `.devcontainer` folder with your Laravel Code. If starting a new project, you may create a new folder with just `laravel-devcontainer` in your `.devcontainer` folder. You may then [install Laravel using Composer](https://laravel.com/docs/11.x/installation#creating-a-laravel-project) (e.g. under `example-app`). You may then move the `.devcontainer` folder to your code folder (`mv .devcontainer example-app`) and use that!
+Using this configuration is quite simple. [Download](https://github.com/Reddishye/laravel-devcontainer/archive/refs/heads/master.zip) and place `laravel-devcontainer` in a `.devcontainer` folder with your Laravel Code. If starting a new project, you may create a new folder with just `laravel-devcontainer` in your `.devcontainer` folder. You may then [install Laravel using Composer](https://laravel.com/docs/11.x/installation#creating-a-laravel-project) (e.g. under `example-app`). You may then move the `.devcontainer` folder to your code folder (`mv .devcontainer example-app`) and use that!
 
 #### Installing Using Git Submodules
 
 Alternatively, you may use [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Install the configuration by running
 
 ```sh
-git submodule add https://github.com/theomessin/laravel-devcontainer .devcontainer
+git submodule add https://github.com/Reddishye/laravel-devcontainer .devcontainer
 ```
 
 If you use this method, do not forget to install submodules when cloning:
